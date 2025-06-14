@@ -1,1 +1,1 @@
-// JS from Canvas（仮）
+console.log('JS loaded');
