@@ -132,3 +132,32 @@ body {
   z-index: 1;
   border-radius: 1em;
 }
+
+.index-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.index-logo-background {
+  width: 80%;
+  text-align: center;
+}
+
+.index-logo-background img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  opacity: 0.9;
+}
+
+#particle-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  pointer-events: none;
+}
