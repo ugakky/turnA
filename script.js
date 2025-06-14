@@ -1,1 +1,1 @@
-// script.js placeholder
+// script.js: GitHub Pages用
