@@ -35,3 +35,30 @@
     text-align: center;
   }
 }
+
+
+.button-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  padding: 1em;
+  background-color: #29293d;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.nav-button {
+  text-decoration: none;
+  color: #ffe6f0;
+  background-color: #444;
+  padding: 0.6em 1.2em;
+  border-radius: 10px;
+  border: 1px solid #cdb4db;
+  font-weight: bold;
+}
+
+.nav-button:hover {
+  background-color: #cdb4db;
+  color: #1a1a2e;
+}
