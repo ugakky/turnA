@@ -1,1 +1,1 @@
-console.log('script loaded');
+// script.js: GitHub Pages用
