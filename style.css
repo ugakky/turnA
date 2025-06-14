@@ -97,3 +97,38 @@ header {
   z-index: 1;
   border-radius: 1em;
 }
+
+body {
+  background-color: #29293d;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+  background-color: #29293d;
+  z-index: 2;
+  position: relative;
+}
+
+.logo img {
+  height: 42px;
+}
+
+.button-nav {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+.main-section {
+  background-color: #29293d;
+  color: #ffe6f0;
+  padding: 2em;
+  max-width: 900px;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+  border-radius: 1em;
+}
